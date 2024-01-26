@@ -1,6 +1,6 @@
 <template>
   <main
-    class="md:flex-row flex flex-col h-screen main-block text-white bg-black/70 max-w-full overflow-hidden p-5 md:p-0"
+    class="md:flex-row flex flex-col h-screen main-block text-white bg-black/30 max-w-full overflow-hidden p-5 md:p-0"
     ref="mainPage"
   >
     <img :src="bgGif" alt="" class="main-block__bg mix-blend-multiply" />
@@ -9,7 +9,7 @@
         <SheetTrigger as-child>
           <Button variant="outline"> Menu </Button>
         </SheetTrigger>
-        <SheetContent class="overflow-y-auto">
+        <SheetContent class="overflow-y-auto w-full">
           <SheetTitle>Select City</SheetTitle>
           <Sidebar />
         </SheetContent>
