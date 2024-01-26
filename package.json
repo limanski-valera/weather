@@ -1,12 +1,12 @@
 {
-  "homepage": "https://limanski-valera.github.io/weather",
+  "homepage": "http://limanski-valera.github.io/weather",
   "name": "weather",
   "version": "0.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
