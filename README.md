@@ -1,6 +1,6 @@
 # Weather App
 
-This template should help get you started developing with Vue 3 in Vite.
+Project Deployment: https://limanski-valera.github.io/weather/
 
 # App Description
 
